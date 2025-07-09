@@ -1,4 +1,5 @@
 import { PlayStage } from './play_stage.js';
+import { MusicPlayer, Game } from '../lib/ezLib.js';
 //
 const canvas = document.getElementById('game_screen');
 const loading = document.getElementById('loading');
