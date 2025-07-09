@@ -7,8 +7,8 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(10, 10, 10);
-  /* overflow: hidden; */
+  background-color: rgb(50, 50, 50);
+  overflow: hidden;
 }
 
 h1 {
@@ -27,10 +27,8 @@ h1 {
 
 #game_screen {
   margin: 1rem;
-  border: 1px solid rgb(150, 150, 150);
-  cursor: pointer;
-  width: 800;
-  height: 600;
+  border: 1px solid rgb(220, 220, 220);
+  cursor: crosshair;
 }
 
 #music_layout {
@@ -42,7 +40,6 @@ h1 {
 }
 
 #screen_layout {
-  width: 100vw;
   display: flex;
   justify-content: center;
 }
