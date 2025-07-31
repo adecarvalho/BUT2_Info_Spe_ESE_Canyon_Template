@@ -1,5 +1,5 @@
 import { theGame } from "./main.js";
-import { Entity } from '../lib/ezLib.js';
+import { Entity, Vector2D } from '../lib/ezLib.js';
 import { Explosion } from '../lib/explosion.js';
 
 //
@@ -17,7 +17,8 @@ export class Plane extends Entity {
         //
         this.screenWidth = screenWidth;
         this.screenHeight = screenHeight;
-        this.initPosition = { x: xini, y: yini };
+        //
+        this.initPosition = new Vector2D(xini, yini);
         //
         this.setState(Plane.STATE_LIVE);
         //
